@@ -1,1 +1,1 @@
-My repo for storing my PPL Lab Excercise files
+My repo for storing PPL Lab Excercise files
