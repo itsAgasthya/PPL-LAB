@@ -1,8 +1,6 @@
 fn main() {
-    // Using a for loop to print even numbers from 1 to 20
-    for i in 1..=20 {
-        if i % 2 == 0 {
-            println!("{}", i);
-        }
+    // Use a for loop to print even numbers from 1 to 20
+    for num in (2..=20).step_by(2) {
+        println!("{}", num);
     }
 }

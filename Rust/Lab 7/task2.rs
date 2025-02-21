@@ -1,11 +1,19 @@
 fn main() {
-    let a: i32 = 10;
-    let b: i32 = 5;
+    // Declare two integer variables
+    let num1: i32 = 15;
+    let num2: i32 = 5;
 
     // Perform arithmetic operations
-    println!("Addition: {}", a + b);
-    println!("Subtraction: {}", a - b);
-    println!("Multiplication: {}", a * b);
-    println!("Division: {}", a / b);
-    println!("Modulo: {}", a % b);
+    let addition = num1 + num2;
+    let subtraction = num1 - num2;
+    let multiplication = num1 * num2;
+    let division = num1 as f64 / num2 as f64; // Convert to float for division
+    let modulo = num1 % num2;
+
+    // Print the results
+    println!("Addition: {}", addition);
+    println!("Subtraction: {}", subtraction);
+    println!("Multiplication: {}", multiplication);
+    println!("Division: {}", division);
+    println!("Modulo: {}", modulo);
 }

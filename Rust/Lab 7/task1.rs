@@ -1,13 +1,13 @@
 fn main() {
-    // Declare variables of different datatypes
-    let integer: u32 = 42;
-    let floating_point: f64 = 3.14;
-    let boolean: bool = true;
-    let character: char = 'R';
+    // Declare variables of different types
+    let integer_variable: i32 = 10;
+    let floating_point_variable: f64 = 10.5;
+    let boolean_variable: bool = true;
+    let character_variable: char = 'A';
 
-    // Print
-    println!("Integer: {}", integer);
-    println!("Floating-point: {}", floating_point);
-    println!("Boolean: {}", boolean);
-    println!("Character: {}", character);
+    // Print the values of each variable
+    println!("Integer: {}", integer_variable);
+    println!("Floating Point: {}", floating_point_variable);
+    println!("Boolean: {}", boolean_variable);
+    println!("Character: {}", character_variable);
 }
